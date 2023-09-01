@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(130, 63, 255);
+    font-family: cursive;
+}
+
+#main{
+                             
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 100vh;
+}
+
+
+.sec{
+    background-color: white;
+    /* padding: 60px 80px; */
+    width: 270px;
+    height: 250px;
+    border-radius: 20px;
+    
+    
+} 
+
+#month{
+ background-color: red;
+ padding: 10px ;
+ text-align:center;
+ border-top-left-radius: 20px;
+ border-top-right-radius: 20px;
+  color: white;
+  font-weight: 500;
+}
+
+#day {
+    text-align: center;
+    padding: 10px;
+    color: gray;
+    font-size: medium;
+    font-weight: 300;
+}
+
+#dayNum{
+    text-align: center;
+    /* padding: 10px;  */
+    font-size: 70px;
+    font-weight: 500;
+}
+
+#year{
+    text-align: center;
+    /* padding: 10px; */
+    color: gray;
+    font-size: medium;
+    font-weight: 300;
+}
+
+
